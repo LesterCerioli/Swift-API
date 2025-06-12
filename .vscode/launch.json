@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:KituraResyAPI}",
+            "name": "Debug KituraResyAPI",
+            "program": "${workspaceFolder:KituraResyAPI}/.build/debug/KituraResyAPI",
+            "preLaunchTask": "swift: Build Debug KituraResyAPI"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:KituraResyAPI}",
+            "name": "Release KituraResyAPI",
+            "program": "${workspaceFolder:KituraResyAPI}/.build/release/KituraResyAPI",
+            "preLaunchTask": "swift: Build Release KituraResyAPI"
+        }
+    ]
+}
